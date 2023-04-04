@@ -5,7 +5,7 @@
 
 from functools import wraps
 import tensorflow as tf
-from tensorflow.contrib.framework import is_tensor
+from tensorflow import is_tensor
 from collections import Sequence
 
 def vararg_decorator(f):
